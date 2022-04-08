@@ -1,0 +1,100 @@
+/* 文字全体における指示 */
+*{box-sizing: border-box;}
+
+body {
+  /*文字を中央寄せにする*/
+  text-align: center;
+  /*フォントサイズを16pxに*/
+  font-size: 18px;
+  /*フォントを左から順番に適応する */
+  font-family: "YuGothic","Yu Gothic";
+  /* 行間の設定 */
+  line-height: 1.75em;
+}
+
+/*---------------- 
+画像全体における指示 
+-----------------*/
+img {
+/*---------------- 
+親要素の横幅に合わせて表示される 
+-----------------*/
+  max-width: 100%;
+/*---------------- 
+ちょうどいい高さになる 
+-----------------*/
+  height: auto;
+}
+
+/*---------------- 
+ちょうどいい高さになる 
+.title-img{
+  position: relative;
+  color: #ffffff;
+  margin-bottom: 60px;
+  width: 100%;
+  height: auto;
+}
+
+
+.title-main{
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 70px;
+  font-weight: bold;
+}
+-----------------*/
+
+.title-main{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #d3c4b1;
+  font-size: 40px;
+  width: 75% ;
+  display: inline-block;
+  margin: 15px;
+}
+
+.title-main{
+  margin: 10px; 
+  padding: 20px;
+}
+
+.title-sub{
+  margin-top:30px ;
+  font-size: 18px;
+  padding: 0 0 20px;
+}
+
+.question-all{
+  display: inline-block;
+  margin: 50px;
+}
+
+dd{
+  padding: auto;
+}
+
+dl{
+  margin: 50px;
+}
+
+.btn{
+  font-size: 32px;
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.answer{
+  font-size: 70px;
+  margin: 60px;
+  border: #232323;
+}
